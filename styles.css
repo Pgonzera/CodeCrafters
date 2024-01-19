@@ -133,6 +133,10 @@ p{
 }
 
 
+#servicos div{
+    margin-bottom: 50px;
+}
+
 #servicos{
     text-align: center;
     margin: auto;
@@ -172,27 +176,28 @@ p{
     background-size: cover;
     background-position: top, center;
     background-repeat:no-repeat;
-    height: 900px;
-    width: 100%;
+    height: 700px;
+    max-width: 100vw;
     padding: 50px;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 #aplications h2{
     background-color:rgba(0, 0, 0, 0.8);
-    
-
-    margin-top: 50px;
+    color:antiquewhite;
+    text-align: center;
+    margin-top: 100px;
     width: 450px;
+    margin: auto;
+    
 }
 
 #aplications p{
-    margin: 10px;
     text-align: center;
-    margin-top: 50px;
     background-color:rgba(0, 0, 0, 0.8);
-    
+    color:antiquewhite;
     margin: auto;
-    
+    width: 450px;
     line-height: 30px;
     margin-bottom: 50px;
 }
