@@ -9,10 +9,8 @@ function toggleNavbar() {
 
     // Atualizar o texto do botão com base na visibilidade da barra de navegação
     navBtn.innerText = isNavbarVisible ? '✖' : '☰';
-
-
-
 }
+
 
 let indiceSlider = 0;
 
