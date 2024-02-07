@@ -1,0 +1,358 @@
+@media (max-width: 518px) {
+    /*Barra de navegação*/
+    h3{
+        color: rgba(3, 171,222, 1);
+        font-size: 30px;
+    }
+    
+
+       .navbar-links {
+           display: none;
+           flex-direction: column;
+           position: absolute;
+           left: 0;
+           width: 100%;
+           background-color: #333;
+           padding: 10px;
+           box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+           text-align: center;
+           margin-top:40%;
+       }
+   
+       .navbar-links.show {
+           display: flex;
+       }
+   
+       .navbar-toggler {
+           margin-right: 10px;
+           display: block;
+       }
+   
+       .navbar-toggler.show {
+           display: none;
+           
+       }   
+       
+   /*Sessão principal da página home*/    
+     
+   body{
+       margin: auto;
+       text-align: center;
+       justify-content: center;
+   }
+   
+   .home{
+           flex-direction: column-reverse;
+       }
+   
+       .home img{
+           margin: auto;
+           margin-bottom: 100px;
+           margin-top: 50px;
+       }
+   
+   
+       #texto{
+           margin-top: 100px;
+           margin-bottom: 100px;
+           margin-right: -100%;
+           margin-left: 80px;
+           max-width: 900px;
+           width: 700px;
+           
+   
+       }
+   
+   
+   /*Sessão de especialidades (ícones e texto)*/
+       
+       #tituloSpecs{
+           margin-right: -100%;
+           margin-left: 80px;
+       }
+   
+       .especialidades{
+           flex-direction: column;
+           text-align: center;
+           justify-content: flex-end;
+           justify-items: center;
+           align-items:center;
+           margin-right: -100%;
+           margin-left: 80px;
+       }
+   
+       #imgSkill img{
+          width: 100vw;
+       }
+   
+       #imgSkill p{
+           width: 500px;
+           margin: auto;
+       }
+   
+   
+   
+   
+   /*Footer do site*/
+       
+       footer {
+           margin-top: auto; /* Altere para auto para encostar no final da página */
+           background-color: #333;
+           color: #fff;
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+           padding: 20px; /* Mantém o footer fixo na parte inferior */
+           bottom: 0; /* Coloca o footer na parte inferior */
+           margin: 0 auto;
+           width: 100%; /* Alterado para 100% em vez de 100vw */
+           max-width: 100%;
+           text-decoration: none;
+       }
+   
+       footer p {
+           font-size: 40px; /* Ajuste o tamanho da fonte conforme necessário */
+           max-width: 80%; /* Alterado para 80% em vez de 100% */
+           text-align: center; /* Centraliza o texto no footer */
+       }      
+       
+    
+   
+              
+}
+
+
+@media ((min-width:717px) and (max-width: 1000px)) {
+    /*Barra de navegação*/
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        padding: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        text-align: center;
+        margin-top:40%;
+    }
+
+    .navbar-links.show {
+        display: flex;
+    }
+
+    .navbar-toggler {
+        margin-right: 10px;
+        display: block;
+    }
+
+    .navbar-toggler.show {
+        display: none;
+        
+    }
+   /*Sessão principal da página home*/        
+    .home{
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home img{
+        margin: auto;
+        margin-bottom: 100px;
+        margin-top: 50px;
+        width: 100vw;
+    }
+
+
+    body{
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+    #texto{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: auto ;
+        margin-right: -15%;
+        max-width: 900px;
+        text-align: center;
+        align-content:end
+
+    }
+
+
+    /*Sessão de especialidades (ícones e texto)*/
+    
+    #tituloSpecs{
+        margin-right: -00%;
+        margin-left: 80px;
+    }
+
+    .especialidades{
+        flex-direction: column;
+        text-align: center;
+        justify-content: flex-end;
+        justify-items: center;
+        align-items:center;
+        margin-right: -00%;
+        margin-left: 80px;
+    }
+
+    #imgSkill img{
+       width: 300px;
+    }
+
+    #imgSkill p{
+        width: 500px;
+        margin: auto;
+    }
+    
+
+    /*Footer do site*/
+    footer {
+        margin-top: auto; /* Altere para auto para encostar no final da página */
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0px; /* Mantém o footer fixo na parte inferior */
+        bottom: 0; /* Coloca o footer na parte inferior */
+        margin: 0 auto;
+        width: 100%; /* Alterado para 100% em vez de 100vw */
+        max-width: 100%;
+        text-decoration: none;
+    }
+
+    footer p {
+        font-size: 40px; /* Ajuste o tamanho da fonte conforme necessário */
+        max-width: 80%; /* Alterado para 80% em vez de 100% */
+        text-align: center; /* Centraliza o texto no footer */
+    }         
+    
+
+           
+}
+
+
+
+@media ((min-width:1024px) and (max-width: 1280px)) {
+    /*Barra de navegação*/
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        padding: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        text-align: center;
+        margin-top:40%;
+    }
+
+    .navbar-links.show {
+        display: flex;
+    }
+
+    .navbar-toggler {
+        margin-right: 10px;
+        display: block;
+    }
+
+    .navbar-toggler.show {
+        display: none;
+        
+    } 
+    
+    /*Sessão principal da página home*/ 
+    .home{
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home img{
+        margin: auto;
+        margin-bottom: 100px;
+        margin-top: 50px;
+        width: 750px;
+    }
+
+
+    body{
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+    #texto{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        margin: center;
+        max-width: 900px;
+        width: 700px;
+        text-align: center;
+
+    }
+
+
+    /*Sessão de especialidades (ícones e texto)*/
+    
+    #tituloSpecs{
+        margin-right: -00%;
+        margin-left: 80px;
+    }
+
+    .especialidades{
+        flex-direction: column;
+        text-align: center;
+        justify-content: flex-end;
+        justify-items: center;
+        align-items:center;
+        margin-right: -00%;
+        margin-left: 80px;
+    }
+
+    #imgSkill img{
+       width: 300px;
+    }
+
+    #imgSkill p{
+        width: 500px;
+        margin: auto;
+    }
+    
+    /*Footer do site*/
+
+    footer {
+        margin-top: auto; /* Altere para auto para encostar no final da página */
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0px; /* Mantém o footer fixo na parte inferior */
+        bottom: 0; /* Coloca o footer na parte inferior */
+        margin: 0 auto;
+        width: 100%; /* Alterado para 100% em vez de 100vw */
+        max-width: 100%;
+        text-decoration: none;
+    }
+
+    footer p {
+        font-size: 40px; /* Ajuste o tamanho da fonte conforme necessário */
+        max-width: 80%; /* Alterado para 80% em vez de 100% */
+        text-align: center; /* Centraliza o texto no footer */
+    }         
+    
+
+           
+}
+
