@@ -15,7 +15,7 @@ body {
 p{
     
     font-size: 35px;
-    color: rgba(0, 31, 63, 1);
+    color: #001f3f;
 }
 
 h1{
@@ -116,7 +116,7 @@ main{
 form input{
     min-height: 70px;
     min-width: 450px;
-    background-color: rgba(0, 31, 63, 1);
+    background-color: #001f3f;
     margin-top: 10px;
     font-family: 'Nova Square', sans-serif;
     font-size: 25px;
