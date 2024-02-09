@@ -146,7 +146,6 @@ padding: 10px;
 
 footer {
     margin-top: 100px; /* Altere para auto para encostar no final da página */
-    margin-right: -40px;
     background-color: #333;
     color: #fff;
     display: flex;
