@@ -1,8 +1,4 @@
-p {
-    color: #001f3f; /* Estilo padrão para todos os navegadores */
-    -webkit-text-fill-color: #001f3f; /* Para navegadores WebKit, como Chrome e Safari */
-    -moz-text-fill-color: #001f3f; /* Para navegadores Firefox */
-  }
+
 
 @media (max-width: 518px) {
   /*Barra de navegação*/
