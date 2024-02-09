@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
     <script src="../script.js" defer></script>
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./model.css">
     <title>CodeCrafters</title>
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -14,13 +20,52 @@
                 <div class="logo">CodeCrafters</div>
                 <button class="navbar-toggler" onclick="toggleNavbar()">☰</button>
                 <ul class="navbar-links" id="navbarLinks">
-                    <li><a href="./indexx.html">Home</a></li>
+                    <li><a href="./index.html">Home</a></li>
                     <li><a href="./about.html">Sobre</a></li>
                     <li><a href="./services.html">Serviços</a></li>
                     <li><a href="./contact.html">Contato</a></li>
                 </ul>
             </nav>
         </header>
-    </div> 
+    </div>
+
+    <main class="">
+        <div id="textoContato">
+            <h1>Entre em contato e faça um orçamento!</h1>
+            <p>Preencha o formulário descrevendo sobre seu projeto ou entre em contato pelo nosso WhatsApp. <br>
+                Entraremos em contato para analisar as demandas, necessidades e planejamento para seu projeto.
+            </p>
+        </div>
+
+
+        <div id="contato">
+            <form action="">
+                <input type="name" placeholder="Nome" required><br>
+                <input type="email" placeholder="E-mail" required><br>
+                <input type="tel" name="tel" id="tel" placeholder="Celular" required><br>
+                <label for="textarea">Descreva seu projeto:<br>
+                    <textarea name="textarea" id="textarea" cols="30" rows="10" required></textarea><br>
+                </label>
+                <input type="submit" name="submit" id="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+    <div id="whatsapp">
+        <p>Enviar mensagem:</p>
+        <a href=""><img src="./img/whatsapp.png" alt=""></a>
+    </div>
+
+    <br>
+
+    <footer>
+        <p>&copy 2024 CodeCrafters</p>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">Sobre</a></li>
+            <li><a href="./services.html">Serviços</a></li>
+            <li><a href="./contact.html">Contato</a></li>
+        </ul>
+    </footer>
 </body>
+
 </html>
