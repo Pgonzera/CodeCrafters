@@ -5,6 +5,10 @@
     font-size: 35px;
   }
 
+  p {
+    font-size: 35px;
+  }
+
   .navbar-links {
     display: none;
     flex-direction: column;
