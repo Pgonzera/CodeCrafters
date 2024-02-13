@@ -1,212 +1,194 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family:'Nova Square', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Nova Square", sans-serif;
 }
-
 
 body {
-    margin: 0;
-    background-image: url(./img/fundo.png);
-    background-position: top, center;
-    min-width: 816px;
+  margin: 0;
+  background-image: url(./img/fundo.png);
+  background-position: top, center;
+  min-width: 816px;
 }
 
-p{
-    
-    font-size: 35px;
-    color: #001f3f;
+p {
+  font-size: 35px;
+  color: #001f3f;
 }
 
-h1{
-    font-weight: 600;
-    font-size: 40px;
-    color: rgba(3, 171,222, 1)
+h1 {
+  font-weight: 600;
+  font-size: 40px;
+  color: rgba(3, 171, 222, 1);
 }
 
-h2{
-    font-weight: 600;
-    font-size: 35px;
-    color: rgba(3, 171,222, 1)   
+h2 {
+  font-weight: 600;
+  font-size: 35px;
+  color: rgba(3, 171, 222, 1);
 }
 
-h3{
-    color: rgba(3, 171,222, 1);
-    font-size: 30px;
+h3 {
+  color: rgba(3, 171, 222, 1);
+  font-size: 30px;
 }
 
-header{
-    position: fixed;
-    width: 100%;
-
+header {
+  position: fixed;
+  width: 100%;
 }
-
 
 .container {
-    width: 100%;
-    margin: 0 auto;
-    
-
+  width: 100%;
+  margin: 0 auto;
 }
 .navbar {
-    background-color:#333;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-    color: rgba(3, 171,222, 1);
-    font-size: 40px;
+  color: rgba(3, 171, 222, 1);
+  font-size: 40px;
 }
 
 .navbar-links {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 .navbar-links li {
-padding: 10px;
+  padding: 10px;
 }
 
-
 .navbar-links a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    font-size: 30px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .navbar-toggler {
-    display: none;
-    font-size: 3.5rem;
-    background: none;
-    border: none;
-    color: #fff;
-    cursor: pointer;
+  display: none;
+  font-size: 3.5rem;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
 }
 
 .navbar-toggler.show {
-    display: none;
+  display: none;
 }
 
-main{
-
-    padding: 100px;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    margin-bottom: 50px;
+main {
+  padding: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
-#textoContato{
-    
-    max-width: 500px;
-    text-align: center;
-    margin-bottom: 50px;
+#textoContato {
+  max-width: 500px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
-
-#contato{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+#contato {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-form input{
-    min-height: 70px;
-    min-width: 450px;
-    background-color: #001f3f;
-    margin-top: 10px;
-    font-family: 'Nova Square', sans-serif;
-    font-size: 25px;
-    text-align: center;
-    border-radius:5px;
-    border:none;
-    color:#fff;
-    
+form input {
+  min-height: 70px;
+  min-width: 450px;
+  background-color: #001f3f;
+  margin-top: 10px;
+  font-family: "Nova Square", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
 }
 
-
-label{
-    text-align: center;
-    font-size: 35px;
+label {
+  text-align: center;
+  font-size: 35px;
 }
 
-form textarea{
-    color:#fff;
-    background-color: rgba(0, 31, 63, 1);
-    justify-content: space-around;
-    margin: auto;
-    min-height: 300px;
-    min-width: 450px;
-    border-radius:5px;
-    resize: vertical;
-    max-height: 600px;
-    font-family: 'Nova Square', sans-serif;
-    
+form textarea {
+  color: #fff;
+  background-color: rgba(0, 31, 63, 1);
+  justify-content: space-around;
+  margin: auto;
+  min-height: 300px;
+  min-width: 450px;
+  border-radius: 5px;
+  resize: vertical;
+  max-height: 600px;
+  font-family: "Nova Square", sans-serif;
 }
 
-form textarea p{
-    color:#fff;
-    padding: 2px;
-    padding-right: 1px;
+form textarea p {
+  color: #fff;
+  padding: 2px;
+  padding-right: 1px;
 }
 
-
-
-#submit{
-    background-color:rgba(3, 171,222, 1);
-    font-family:'Nova Square', sans-serif;
-    border:none;
-    min-width: 200px;
-    min-height: 70px;
-    border-radius: 20px;
+#submit {
+  background-color: rgba(3, 171, 222, 1);
+  font-family: "Nova Square", sans-serif;
+  border: none;
+  min-width: 200px;
+  min-height: 70px;
+  border-radius: 20px;
 }
 
-
-
-
-#whatsapp{
-    margin-bottom: 100px;
-    text-align: center;
-    margin: auto;
-    width: 100% ;
+#whatsapp {
+  margin: auto;
+  text-align: center;
+  width: 1000px;
 }
-#whatsapp img{
-    margin-bottom: 100px;
-    max-width: 200px;
+#whatsapp img {
+  width: 300px;
 }
-
-
-
 
 footer {
-    margin-top: 200px; /* Altere para auto para encostar no final da página */
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px; /* Mantém o footer fixo na parte inferior */
-    bottom: 0; /* Coloca o footer na parte inferior */
-    min-width:820px;
-    width: auto; /* Garante que o footer ocupe toda a largura */
-    max-width: 100vw;
-    text-decoration: none;
+  margin-top: 400px;
+  margin-bottom: -1000px;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100vw;
+  background-color: #333;
 }
 
-
-footer p{
-color:#fff;
-font-size: 35px;
-color:rgba(3, 171,222, 1);
+footer p {
+  margin: 0;
+  color: rgba(3, 171, 222, 1);
 }
 
-footer a{
-text-decoration: none;
-color: #fff;
-font-weight: bold;
-font-size: 35px;
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
 
+footer ul li {
+  margin-left: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
 }
