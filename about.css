@@ -6,10 +6,13 @@
 
 body {
   margin: 0;
-  background-image: url(./img/fundo.png);
-  background-position: top, center;
+  background: rgb(0, 212, 255);
+  background: radial-gradient(
+    circle,
+    rgba(0, 212, 255, 0.30155812324929976) 43%,
+    rgba(176, 183, 186, 1) 84%
+  );
   min-width: 816px;
-  height: 100px;
 }
 
 p {
@@ -96,20 +99,19 @@ main {
 }
 
 #discord img {
-  margin-top: -50px;
+  margin-top: 0px;
+  margin-bottom: 50px;
   max-width: 300px;
 }
 
 footer {
-  margin-top: 300px;
-  margin-bottom: -1000px;
-  bottom: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  width: 100vw;
   background-color: #333;
+  width: 1200px;
+  min-width: 97.3%;
 }
 
 footer p {

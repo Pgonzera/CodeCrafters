@@ -6,8 +6,12 @@
 
 body {
   margin: 0;
-  background-image: url(./img/fundo.png);
-  background-position: top, center;
+  background: rgb(0, 212, 255);
+  background: radial-gradient(
+    circle,
+    rgba(0, 212, 255, 0.30155812324929976) 43%,
+    rgba(176, 183, 186, 1) 84%
+  );
   min-width: 816px;
 }
 
@@ -36,6 +40,7 @@ h3 {
 header {
   position: fixed;
   width: 100%;
+  z-index: 1000;
 }
 
 .container {
@@ -52,6 +57,7 @@ header {
 .logo {
   color: rgba(3, 171, 222, 1);
   font-size: 40px;
+  font-weight: 750;
 }
 
 .navbar-links {
@@ -119,6 +125,7 @@ form input {
 label {
   text-align: center;
   font-size: 35px;
+  color: rgba(3, 171, 222, 1);
 }
 
 form textarea {
@@ -132,12 +139,7 @@ form textarea {
   resize: vertical;
   max-height: 600px;
   font-family: "Nova Square", sans-serif;
-}
-
-form textarea p {
-  color: #fff;
-  padding: 2px;
-  padding-right: 1px;
+  font-size: 25px;
 }
 
 #submit {
@@ -149,25 +151,35 @@ form textarea p {
   border-radius: 20px;
 }
 
+#textWhats {
+  width: 100%;
+  text-align: center;
+  margin-top: 0px;
+}
+
+#textWhats p {
+  font-size: 45px;
+}
+
 #whatsapp {
   margin: auto;
   text-align: center;
   width: 1000px;
+  margin-bottom: 50px;
 }
+
 #whatsapp img {
-  width: 300px;
+  width: 140px;
 }
 
 footer {
-  margin-top: 400px;
-  margin-bottom: -1000px;
-  bottom: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  width: 100vw;
   background-color: #333;
+  width: 1200px;
+  min-width: 97.3%;
 }
 
 footer p {

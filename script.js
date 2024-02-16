@@ -11,27 +11,32 @@ function toggleNavbar() {
     navBtn.innerText = isNavbarVisible ? '✖' : '☰';
 }
 
+//Animações 
+const myObserver = new IntersectionObserver((entries)=>{
+    entries.forEach((entry)=>{
+        if(entry.isIntersecting){
+            entry.target.classList.add('showX');
+        }else{
+            entry.target.classList.remove('showX');
+        }
+    })
+})
 
-let indiceSlider = 0;
+const elements = document.querySelectorAll('.hiddenX');
 
-function voltarSlider(incremento) {
-    indiceSlider = (indiceSlider - incremento + totalSlides) % totalSlides;
-    exibirSlideAtual();
-}
+elements.forEach((element)=> myObserver.observe(element));
 
-function moverSlider(incremento) {
-    indiceSlider = (indiceSlider + incremento + totalSlides) % totalSlides;
-    exibirSlideAtual();
-}
 
-function exibirSlideAtual() {
-    const slides = document.querySelectorAll(".slider img");
-    slides.forEach((slide, index) => {
-        slide.style.display = index === indiceSlider ? "block" : "none";
-    });
-}
+const myObserverV = new IntersectionObserver((entries)=>{
+    entries.forEach((entry)=>{
+        if(entry.isIntersecting){
+            entry.target.classList.add('showV');
+        }else{
+            entry.target.classList.remove('showV');
+        }
+    })
+})
 
-const totalSlides = document.querySelectorAll(".slider img").length;
+const elementsV = document.querySelectorAll('.hiddenV');
 
-// Exiba o primeiro slide ao carregar a página
-document.addEventListener("DOMContentLoaded", exibirSlideAtual);
+elementsV.forEach((elementV)=> myObserverV.observe(elementV));
