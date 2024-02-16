@@ -58,6 +58,11 @@ header {
 
 @media (max-width: 768px) {
   /*Barra de navegação*/
+
+  h1 {
+    font-size: 50px;
+  }
+
   h3 {
     color: rgba(3, 171, 222, 1);
     font-size: 35px;
@@ -104,10 +109,13 @@ header {
   }
 
   main {
-    width: 100%;
+    width: 300vw;
     text-align: center;
     justify-content: center;
     flex-direction: column;
+    margin: auto;
+    margin-right: 0px;
+    margin-left: 0px;
   }
 
   main img {
@@ -151,10 +159,91 @@ header {
     margin: auto;
   }
 
+  #discord {
+    margin-top: 50px;
+    text-align: center;
+    width: 350vw;
+    margin: auto;
+  }
+
+  #textSkill {
+    margin-right: 400px;
+  }
+
+  #textoContato {
+    margin: auto;
+  }
+
+  #textWhats {
+    width: 350vw;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  #textWhats p {
+    font-size: 50px;
+  }
+
+  #whatsapp {
+    margin: auto;
+    text-align: center;
+    width: 350vw;
+    margin-bottom: 50px;
+  }
+
+  #contato {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  form input {
+    min-height: 90px;
+    min-width: 450px;
+    background-color: #001f3f;
+    margin-top: 10px;
+    font-family: "Nova Square", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+  }
+
+  label {
+    text-align: center;
+    font-size: 35px;
+    color: rgba(3, 171, 222, 1);
+  }
+
+  form textarea {
+    color: #fff;
+    background-color: rgba(0, 31, 63, 1);
+    justify-content: space-around;
+    margin: auto;
+    min-height: 300px;
+    min-width: 800px;
+    border-radius: 5px;
+    resize: vertical;
+    max-height: 600px;
+    font-family: "Nova Square", sans-serif;
+    font-size: 30px;
+  }
+
+  #submit {
+    background-color: rgba(3, 171, 222, 1);
+    font-family: "Nova Square", sans-serif;
+    border: none;
+    min-width: 200px;
+    min-height: 70px;
+    border-radius: 20px;
+  }
+
   /*Footer do site*/
 
   footer {
-    min-width: 1200px;
+    margin-top: 1460px;
+    min-width: 350vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -177,10 +266,6 @@ header {
   footer ul li {
     flex-direction: column;
     margin-left: 10px;
-  }
-
-  #textoContato {
-    margin: auto;
   }
 }
 

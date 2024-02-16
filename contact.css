@@ -97,6 +97,7 @@ main {
   margin-bottom: 50px;
 }
 
+
 #textoContato {
   max-width: 500px;
   text-align: center;
@@ -173,13 +174,14 @@ form textarea {
 }
 
 footer {
+  bottom: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
   background-color: #333;
   width: 1200px;
-  min-width: 97.3%;
+  min-width: 97.8%;
 }
 
 footer p {

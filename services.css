@@ -89,24 +89,29 @@ header {
   display: none;
 }
 main {
+  margin: auto;
   text-align: center;
   padding: 100px;
   display: flex;
+  width: 100vw;
   flex-direction: column;
   justify-content: center;
+  align-items: center; /* Adicionado para centralizar verticalmente */
+}
+
+main p {
+  font-size: 550px;
 }
 
 #titulo {
   width: 90vw;
   justify-content: center;
+  text-align: center;
 }
 
-#servText {
-  width: 90vw;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin: auto;
+#servText p {
+  max-width: 800px; /* Aumenta a largura máxima do texto */
+  margin: auto; /* Centraliza horizontalmente */
 }
 
 #servText p {
@@ -122,32 +127,36 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   text-align: center;
-  gap: 5px;
   justify-content: space-evenly;
-}
-
-#textSkill {
-  margin: 10px auto;
-  width: 300px;
-}
-#textSkill p {
-  font-size: 17px;
+  align-items: center; /* Adicionado para centralizar os itens */
 }
 
 #imgSkill {
-  box-shadow: 2px 2px 2px 4px #333 ;
+  box-shadow: 2px 2px 2px 4px #333;
   border-radius: 20px;
-  align-items:center;
   padding: 75px;
-  width: 300px;
-  height: 260px;
+  width: 350px;
+  height: auto;
   margin-bottom: 100px;
+  text-align: center;
+  display: flex; /* Adicionado */
+  flex-direction: column; /* Adicionado */
+  justify-content: center; /* Adicionado */
+  align-items: center; /* Adicionado */
+}
+
+#textSkill {
+  text-align: center;
+  width: 100px;
+}
+#textSkill p {
+  font-size: 25px;
+  width: 300px;
 }
 
 #imgSkill img {
-
   margin: auto;
-  margin-top: -20px ;
+  margin-top: -20px;
   margin-left: auto;
   margin-right: auto;
   max-width: 100px;
