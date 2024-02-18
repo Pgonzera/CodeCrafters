@@ -65,11 +65,13 @@ header {
   width: 100vw;
   height: 10px;
   z-index: 1000;
+  justify-content: space-around;
 }
 
 .navbar {
   background-color: #333;
   display: flex;
+  gap: 10px;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
@@ -90,7 +92,7 @@ header {
 }
 
 .navbar-links.show {
-  margin-top: 5%;
+  margin-top: 1px;
   transition: transform 0.3s ease-in-out;
   transform: translateX(0%);
   display: block;
@@ -112,7 +114,10 @@ header {
   color: #fff;
   font-size: 24px;
   cursor: pointer;
-  display: none;
+  display: block; /* Exibindo o botão quando o menu está aberto */
+  position: absolute;
+  top: 10px; /* Ajuste da posição vertical */
+  right: 20px; /* Posicionando o botão no canto superior direito */
 }
 
 /* Adicionando estilos para quando a classe .close estiver presente */
@@ -337,7 +342,7 @@ footer p {
   }
 
   .navbar-links {
-    margin-top: 5%;
+    margin-top: 1px;
     position: absolute;
     top: 70px;
     left: 0;
@@ -367,19 +372,27 @@ footer p {
     text-align: center;
     overflow: hidden;
     gap: 5rem;
+    margin-bottom: 100px;
+    height: 100%;
   }
-  .home .text-h4 {
-    font-size: 15px;
-  }
-  .home .text-h1 {
-    font-size: 2.5rem;
-    line-height: 3rem;
-  }
+
   .home p {
     font-size: 15px;
   }
   .home-img {
-    width: 125%;
+    margin-left: -200px;
+    width: 100%;
+  }
+
+  .aboutImg {
+    margin-left: 0px;
+    height: 1000%;
+
+  }
+
+
+  .skills {
+    margin-top: 100px;
   }
 
   .icons {
