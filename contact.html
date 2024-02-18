@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>webSite</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <div class="logo">CodeCrafters</div>
+                <button class="navbar-toggler" onclick="toggleNavbar()"><i class="bx bx-menu"></i></button>
+                <ul class="navbar-links" id="navbarLinks">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">Sobre</a></li>
+                    <li><a href="./services.html">Serviços</a></li>
+                    <li><a href="./contact.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="hidden">
+            <section class="home">
+                <div class="home-text">
+                    <h1>Entre em contato e solicite um orçamento personalizado!</h1>
+                    <p>Está pronto para transformar suas ideias em realidade? Não espere mais! Preencha o formulário
+                        abaixo com detalhes sobre seu projeto, ou se preferir, entre em contato diretamente pelo nosso
+                        WhatsApp. Nossa equipe especializada está pronta para ouvir suas necessidades, analisar suas
+                        demandas e criar um plano sob medida para o seu projeto.</p>
+                    <p>Deixe-nos ajudá-lo a alcançar seus objetivos online. Não perca tempo, entre em contato agora!</p>
+                </div>
+
+                <div id="contato">
+                    <form action="">
+                        <input type="name" placeholder="Nome" required><br>
+                        <input type="email" placeholder="E-mail" required><br>
+                        <input type="tel" name="tel" id="tel" placeholder="Celular" required><br>
+                        <label for="textarea">Descreva seu projeto:<br>
+                            <textarea name="textarea" id="textarea" cols="30" rows="10" required></textarea><br>
+                        </label>
+                        <input type="submit" name="submit" id="submit" value="Enviar">
+                    </form>
+                </div>
+
+            </section>
+
+        </main>
+
+        <div id="textWhats">
+            <p class="hiddenV">Enviar mensagem:</p>
+        </div>
+
+        <div id="whatsapp" class="hiddenV">
+            <a href="#"><img src="./img/whatsapp.png" alt="" class="hiddenV"></a>
+        </div>
+
+
+
+        <footer>
+            <div id='footer-content'>
+                <div class="logo">CodeCrafters</div>
+
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">Sobre</a></li>
+                    <li><a href="./services.html">Serviços</a></li>
+                    <li><a href="./contact.html">Contato</a></li>
+                </ul>
+            </div>
+            <br>
+            <p>&copy 2024 CodeCrafters</p>
+        </footer>
+
+        <script src="./JS/script.js" defer></script>
+</body>
+
+</html>
