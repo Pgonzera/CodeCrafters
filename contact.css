@@ -1,0 +1,208 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Nova Square", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: rgb(0, 212, 255);
+  background: radial-gradient(
+    circle,
+    rgba(0, 212, 255, 0.30155812324929976) 43%,
+    rgba(176, 183, 186, 1) 84%
+  );
+  min-width: 816px;
+}
+
+p {
+  font-size: 35px;
+  color: #001f3f;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 40px;
+  color: rgba(3, 171, 222, 1);
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 35px;
+  color: rgba(3, 171, 222, 1);
+}
+
+h3 {
+  color: rgba(3, 171, 222, 1);
+  font-size: 30px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.navbar {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: rgba(3, 171, 222, 1);
+  font-size: 40px;
+  font-weight: 750;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-links li {
+  padding: 10px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.navbar-toggler {
+  display: none;
+  font-size: 3.5rem;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar-toggler.show {
+  display: none;
+}
+
+main {
+  padding: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+#textoContato {
+  max-width: 500px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#contato {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  min-height: 70px;
+  min-width: 450px;
+  background-color: #001f3f;
+  margin-top: 10px;
+  font-family: "Nova Square", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+}
+
+label {
+  text-align: center;
+  font-size: 35px;
+  color: rgba(3, 171, 222, 1);
+}
+
+form textarea {
+  color: #fff;
+  background-color: rgba(0, 31, 63, 1);
+  justify-content: space-around;
+  margin: auto;
+  min-height: 300px;
+  min-width: 450px;
+  border-radius: 5px;
+  resize: vertical;
+  max-height: 600px;
+  font-family: "Nova Square", sans-serif;
+  font-size: 25px;
+}
+
+#submit {
+  background-color: rgba(3, 171, 222, 1);
+  font-family: "Nova Square", sans-serif;
+  border: none;
+  min-width: 200px;
+  min-height: 70px;
+  border-radius: 20px;
+}
+
+#textWhats {
+  width: 100%;
+  text-align: center;
+  margin-top: 0px;
+}
+
+#textWhats p {
+  font-size: 45px;
+}
+
+#whatsapp {
+  margin: auto;
+  text-align: center;
+  width: 1000px;
+  margin-bottom: 50px;
+}
+
+#whatsapp img {
+  width: 140px;
+}
+
+footer {
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  width: 1200px;
+  min-width: 97.8%;
+}
+
+footer p {
+  margin: 0;
+  color: rgba(3, 171, 222, 1);
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+footer ul li {
+  margin-left: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+}
