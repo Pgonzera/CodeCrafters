@@ -413,6 +413,7 @@ footer p {
   form textarea {
     min-height: 300px;
     min-width: 300px;
+    max-width: 350px;
 }
 }
 
